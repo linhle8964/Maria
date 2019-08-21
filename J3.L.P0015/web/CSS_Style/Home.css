@@ -1,0 +1,603 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 23, 2018, 11:11:06 AM
+    Author     : duydnse04661
+*/
+body{
+    margin: 0px;
+    background-image: url(/J3.L.P0015/image/backgroud.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+    min-width: 600px;
+}
+/* */
+#mainBoxShadow{
+    height: 96%;
+    width: 68%;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 4%;
+    margin-top: -10px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+    display: block;
+    background-color: white;
+    box-shadow: 0px 0px 20px black;
+}
+/*Content title and menubar*/
+#bigHeader{
+    width: 96%;
+    height: 120px;
+    margin: 0px;
+    padding-top: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 0px;
+    background-color: #f68c1f;
+}
+/*The menu bar*/
+#menuBar{
+    background-color: #890400;
+    height: 25px;
+    width: 100%;
+    margin: 0px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+}
+/*About all content and advertising and link overview*/
+#bigContener{
+    width: 96%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    border: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    display: flex; /*flexible*/
+}
+/*display list blog*/
+#listBlogs{
+    height: auto;
+    width: 70%;
+    margin-right: 3%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    float: left;
+    display: block;
+}
+/*the area about address and contact*/
+#divAdressContact{
+    width: 49%;
+    height: auto;
+    margin-right: 1%;
+    margin-left: 0px;
+    margin-top: 20px;
+    padding: 0px;
+
+}
+
+.fontFindPage{
+    font-family: Times New Roman;
+    font-weight: normal;
+    font-size: 23px;
+}
+/*the area about open and close*/
+#divOpenClose{
+    width: 49%;
+    height: auto;
+    margin-left: 1%;
+    margin-right: 0px;
+    margin-top: 20px;
+    padding: 0px;
+}
+/*block type is area for all inconblog, headerblog,image,contener text of each blog*/
+#blogType{
+    height: auto;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    padding: 0px;
+    display: flex;
+}
+/*display icon of each blog float left*/
+#iconBlog{
+    height: 100px;
+    width: 10%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/FashionBlog/Image/iconBlogtype1.PNG);
+    background-repeat: no-repeat;
+    background-size: 45px;
+}
+/*display contener of each blog*/
+#blogContener{
+    height: auto;
+    width: 90%;
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+/*the header of blog about name and pushdate*/
+#theHeaderBlog{
+    width: 100%;
+    height: 25px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+/*the header of blog for page detail*/
+#theHeaderBlogDetail{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+/*advertising*/
+#advertising{
+    height: 30%;
+    width: 25%;
+    float: right;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border: 1px;
+    border-radius: 12px;
+    display: block;
+    background-color: white;
+    box-shadow: 0px 0px 20px black;
+}
+/*display blog text content of blog type2*/
+#textContentBlogType2{
+    width: 50%;
+    height: auto;
+    margin: 0px;
+    padding: 5px;
+    font-size: 15px;
+}
+/*the area display hyperlink overview*/
+#overView{
+    width: 100%;
+    height: 35px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+    text-align: center;
+}
+/*display the footer of page*/
+#theFooter{
+    width: 96%;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+/*display image blog type 1*/
+.imgBlogType1{
+    width: 99%;
+    height: 400px;
+    border: 1px;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 5px;
+}
+/*display image blog type 2*/
+.imgBlogType2{
+    width: 45%;
+    height: 400px;
+    border: 1px;
+    border-radius: 15px;
+    margin: 0px;
+    padding: 5px;
+}
+/*set font size for context of blog type 1*/
+.textBlogType1{
+    font-size: 14px;
+}
+/*set title each page (blog, about me , contact)*/
+.title{
+    font-family: Kunstler Script;
+    font-size: 55px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+/*set font for title of view datail blog*/
+.fontDetailBlogTitle{
+    font-family: Kunstler Script;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px; 
+}
+.fontArial{
+    font-family: Calibri;
+}
+.floatRight{
+    float: right;
+}
+.SharePage{
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+.magin{
+    margin: 0px;
+}
+.fontSortDescription{
+    font-size: 18px;
+}
+.fontSign{
+    font-family: Kunstler Script;
+    font-size: 50px;
+}
+.imageCakeHome{
+    width: 98%;
+    height: 240px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 12px;
+}
+.fontBlack{
+    color: black;
+}
+#linePaginCafe{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding: 0px;
+}
+#contentDetail{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+}
+.imgDetail{
+    width: 50%;
+    height: 250px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 0px;
+    border: 1px;
+    border-radius: 15px;
+    min-width: 25%;
+    min-height: 175px;
+}
+/*set satatus for current number pagination page*/
+.activation{
+    margin: 2px;
+    padding: 5px;
+    border-style: solid;
+    border-color: #cccccc;
+    background-color: #cccccc;
+    color: black;
+}
+.deactivation{
+    background-color: background;
+    margin: 2px;
+    padding: 5px;
+    border-style: solid;
+    border-color: background;
+    color: #ffffff;
+}
+#numberPagination{
+    width: 90%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+#lineAdvertising{
+    height: 20px;
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+    display: flex;
+}
+
+#lineAdvertising a{
+    color: black;
+}
+#divSign{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+
+.divCake1{
+    float: left;
+    width: 49%;
+    margin-top: 40px;
+    height: auto;
+    overflow: auto;
+}
+
+.divCake1 img{
+    width: 100%;
+}
+
+.divCake2{
+    float: right;
+    width: 49%;
+    margin-top: 40px;
+    height: auto;
+    overflow: auto;
+}
+
+.divCake2 img{
+    width: 100%;
+}
+
+.centerdiv{
+    width: 2%;
+    height: auto;
+}
+
+.iconAdvertisingFB{
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    padding: 0px;
+    background-image: url(/J3.L.P0015/image/iconFB.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.iconAdvertisingTW{
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    padding: 0px;
+    background-image: url(/J3.L.P0015/image/iconTW.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.iconAdvertisingGG{
+    height: 15px;
+    width: 15px;
+    margin: 2px;
+    padding: 0px;
+    background-image: url(/J3.L.P0015/image/iconGG.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+.logo{
+    font-family: Times New Roman;
+    font-size: 48px;
+    font-weight: normal;
+    color: white
+}
+.colorWhite{
+    color: white;
+}
+.subLogo{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 22px;
+}
+.fontBold{
+    font-weight: bold;
+}
+.subMenuBar{
+    margin: 0px;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2%;
+    padding-right: 10px;
+}
+.noneLine{
+    text-decoration: none;
+}
+#divVisit{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+#subContent{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    border: 3px;
+    border-bottom-style: dotted;
+    border-bottom-color: #cccccc;
+    display: flex;
+}
+#divAvatar{
+    float: right;
+    width: auto;
+    height: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 0px;
+    margin-right: 20px;
+    padding: 0px;
+}
+.avatar{
+    width: 170px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 12px;
+}
+.fontTimeNewRoman{
+    font-family: Times New Roman;
+    font-weight: normal;
+}
+/*set image map*/
+.imageMap{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+#divTitleContent{
+    float: left;
+    width: auto;
+    height: auto;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+/*============ ad =================*/
+.content-right{
+    order: 2;
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    margin-bottom: 20px;
+    background-color: activeborder;
+}
+.content-right .container{
+    border: 1px solid #fff;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px #535353;
+}
+.container a{
+    display: block;
+    color: black;
+}
+
+.container a:hover{
+    color: black;
+}
+
+.container .fb::before{
+    content: url('../image/fbicon.jpg');
+    margin-right: 5px;
+}
+
+.container .twiter::before{
+    content: url('../image/twitericon.jpg');
+    margin-right: 5px;
+}
+
+.container .google::before{
+    content: url('../image/ggicon.jpg');
+    margin-right: 5px;
+}
+
+.container h4{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.menu-container{
+    margin-bottom: 50px;
+}
+
+.menu-container .descriptment{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed gray;
+}
+
+.menu-container .order, .title{
+    line-height: 45px;
+}
+
+.menu-container .order{
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.float-right{
+    float: right;
+    margin-right: 5px;
+}
+
+.menu-container span{
+    margin-left: 5px;
+}
+
+.menu-container .descriptment{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed gray;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/J3.L.P0015">
+    <Environment name="local" value= "localhost" type="java.lang.String" />
+    <Environment name="portNumber" value= "1433" type="java.lang.String" />
+    <Environment name="dbName" value= "J3LP0015" type="java.lang.String" />
+    <Environment name="userAcc" value= "'linh1" type="java.lang.String" />
+    <Environment name="passWord" value= "123" type="java.lang.String" />
+    <Environment name="imageLink" value= "/J3.L.P0015/image/" type="java.lang.String" />
+</Context>
+
